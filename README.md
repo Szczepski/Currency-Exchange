@@ -19,4 +19,4 @@ Tabele kursów uzupełnia prosty przelicznik walut (still in progress), gdzie ob
 
 https://szczepski.github.io/Currency-Exchange/
 
-za pierwszym razem zezwól przeglądarce wczytać skrypty (w chrome -> pasek adresu, po prawej na końcu).
+#### za pierwszym razem zezwól przeglądarce wczytać skrypty (w chrome -> pasek adresu, po prawej na końcu).
