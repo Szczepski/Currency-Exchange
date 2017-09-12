@@ -70,7 +70,73 @@ $(() => {
 
             })
             //var ask;
-            
+            function select() {
+
+                var el2Bid;
+                var el2Ask;
+                //Mam zlotowki - wymieniam na
+                const li1 = $('#currency-select-1').find('li');
+
+                    li1.on('click', function() {
+
+                        let btn = $('form').find('.select1');
+                        btn.html($(this).clone().children('span'));
+
+                        let from1 = btn.children().eq(0).text();
+                        console.log(from1);
+
+                        let t = response[0].rates.filter(function(el){
+                            //console.log(el);
+                            return el.code == from1;
+                        });
+
+                        const el1Bid = t[0].bid
+                        console.log("bid waluty: ", el1Bid);
+
+                    })
+
+                const li2 = $('#currency-select-2').find('li');
+
+                // Kupuje:
+                    li2.on('click', function() {
+
+                        let btn = $('form').find('.select2');
+                        btn.html($(this).clone().children('span'));
+
+                        let from2 = btn.children().eq(0).text();
+                        console.log(from2);
+                        let t = response[0].rates.filter(function(el){
+                            //console.log(el);
+                            return el.code == from2;
+                        });
+
+                        el2Ask = t[0].ask;
+                        console.log("ask waluty: ", el2Ask);
+
+                    })
+
+                // Przelicz na:
+
+                // var quantity = parseInt($('.counts').val());
+
+                    let btn = $('.onClick');
+                    let num = 0;
+                    btn.on('click' , function(e) {
+                        let input = $('.counts').val();
+                        e.preventDefault();
+                        console.log(el2Ask);
+                        console.log(input);
+
+                        num++;
+                        let sum = (el2Ask * input).toFixed(2);
+                        let message = num + ". " + 'Potrzebny hajs ' +  sum + " PLN";
+                        let el = $('<h3>').text(message);
+                        btn.before(el);
+                    })
+
+            }
+            select()
+
 
 
 
