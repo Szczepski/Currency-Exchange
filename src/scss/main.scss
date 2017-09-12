@@ -1,0 +1,68 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+html {
+    background: #ffffff;
+}
+
+h3 {
+    font-weight: 300;
+    color: #9f2950;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #6a9127;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+input {
+    height: 40px;
+    min-height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    text-align: right;
+    color: #666;
+    cursor: text;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    &:focus {
+        border-color: #6a9127;
+        outline: none;
+    }
+}
+
+button {
+    margin: 20px 10px;
+    padding: 2px;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #6a9127;
+}
+
+//Modules
+@import "modules/all";
+
+//Partials
+@import "partials/base";
+@import "partials/table";
+@import "partials/flags";
+@import "partials/dropdown";
+//import "partials/reset";
