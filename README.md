@@ -1,5 +1,4 @@
 # Currency-Exchange
-# Currency-Exchange
 Jest to strona, która pokazuje aktualne kursy kupna i sprzedaży walut.
 Komunikacja odbywa się za pomocą ajax, który pobiera dane Narodowego Banku Polskiego.
 W aplikacji można zasymulować przeliczenie i określić potrzebny wkład finansowy do zakupu konkretnej waluty.
@@ -18,4 +17,4 @@ Tabele kursów uzupełnia prosty przelicznik walut (still in progress), gdzie ob
 * Bootstrap (which is to be replaced normal css)
 * JavaScript - jQuery
 
-https://szczepski.github.io/Currency-Exchange/
+<!-- https://szczepski.github.io/Currency-Exchange/ -->
