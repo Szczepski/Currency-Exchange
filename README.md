@@ -1,9 +1,8 @@
 # Currency-Exchange
 Jest to strona, która pokazuje aktualne kursy kupna i sprzedaży walut.
-Komunikacja odbywa się za pomocą ajax, który pobiera dane Narodowego Banku Polskiego.
 W aplikacji można zasymulować przeliczenie i określić potrzebny wkład finansowy do zakupu konkretnej waluty.
 
-Komunikacja z api NBP odbywa się za pomocą zapytania ajax.
+Komunikacja z api Narodowego Banku Polskiego odbywa się za pomocą zapytania ajax.
 Pobrane dane (response) są przeszukiwane za pomocą funkcji map, po czym są wstrzykiwane za pomocą jQuery do tabeli.
 Do każdej waluty zostaje przypisana grafika flagi kraju, który reprezentuje.
 
