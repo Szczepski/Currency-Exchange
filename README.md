@@ -16,6 +16,7 @@ Tabele kursów uzupełnia prosty przelicznik walut (still in progress), gdzie ob
 * Bootstrap (which is to be replaced normal css)
 * JavaScript - jQuery
 
-https://szczepski.github.io/Currency-Exchange/
+<!-- https://szczepski.github.io/Currency-Exchange/
 
 #### za pierwszym razem zezwól przeglądarce wczytać skrypty (w chrome -> pasek adresu, po prawej na końcu).
+ -->
